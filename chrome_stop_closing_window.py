@@ -16,4 +16,6 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 
 driver = webdriver.Chrome(options = options)
-driver.get ("http://www.google.com")
+# driver.get ("http://www.google.com")
+
+driver.get ("http://testphp.vulnweb.com/login.php")
